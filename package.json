@@ -4,9 +4,22 @@
   "description": "",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
+  "type": "module",
   "main": "src/index.js",
+  "exports": "./src/index.js",
+  "files": [
+    "src"
+  ],
   "scripts": {
+    "start": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxpupipipuxz/ajs-hmw-platforms.git"
+},
+"bugs": {
+    "url": "https://github.com/zxpupipipuxz/ajs-hmw-platformsissues"
+  },
+  "homepage": "https://github.com/zxpupipipuxz/ajs-hmw-platforms#readme"
 }
